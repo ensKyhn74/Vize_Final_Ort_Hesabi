@@ -31,21 +31,21 @@ int main()
     printf("%.2lf ortalama ile BB ile gectiniz.",ort);
    }
              
-  else if(ort>=55  && ort<=66)
-  {
-   printf("%.2lf ortalama ile CB ile gectiniz.",ort);
-  }
+   else if(ort>=55  && ort<=66)
+   {
+    printf("%.2lf ortalama ile CB ile gectiniz.",ort);
+   }
              
-  else if(ort>=49 && ort<=54)
-  {
-   printf("%.2lf ortalama ile CC ile gectiniz.",ort);
-  }
+   else if(ort>=49 && ort<=54)
+   {
+    printf("%.2lf ortalama ile CC ile gectiniz.",ort);
+   }
              
-  else
-  {
-   printf("%.2lf ortalama ile FF ile kaldiniz.",ort);
-  }
+   else
+   {
+    printf("%.2lf ortalama ile FF ile kaldiniz.",ort);
+   }
  
-  return 0;
+   return 0;
 
 }
